@@ -1,6 +1,7 @@
 - name: Add Ansible User
   hosts: all
   tasks:
+  - name: Add Ansible User
     ansible.builtin.user:
       name: ansible
       password: ansible
