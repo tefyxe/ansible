@@ -8,3 +8,6 @@
       password_expire_account_disable: -1
       password_expire_min: -1
       hidden: yes
+      groups: wheel
+      append: yes
+      
